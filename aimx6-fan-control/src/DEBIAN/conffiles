@@ -1,0 +1,2 @@
+/etc/aimx6-fan-control/aimx6-fan-control.conf
+/etc/systemd/system/aimx6-fan-control.service

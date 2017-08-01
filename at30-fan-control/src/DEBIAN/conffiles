@@ -1,0 +1,2 @@
+/etc/at30-fan-control/at30-fan-control.conf
+/etc/systemd/system/at30-fan-control.service

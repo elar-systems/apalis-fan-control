@@ -1,0 +1,4 @@
+systemctl disable at30-fan-control.service
+rm /etc/systemd/system/at30-fan-control.service
+systemctl daemon-reload > /dev/null 2>&1 || true
+systemctl reset-failed || true

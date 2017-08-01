@@ -1,0 +1,1 @@
+systemctl stop at30-fan-control.service

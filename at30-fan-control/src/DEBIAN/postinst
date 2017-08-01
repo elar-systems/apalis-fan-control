@@ -1,0 +1,4 @@
+chmod 644 /etc/systemd/system/at30-fan-control.service
+systemctl daemon-reload > /dev/null 2>&1 || true
+systemctl enable at30-fan-control.service
+systemctl start at30-fan-control.service
